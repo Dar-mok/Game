@@ -4,9 +4,7 @@ import Confetti from "react-confetti"
 import Dice from "./Dice.jsx"
 
 export default function App() {
-    
-    //things i need
-    
+        
     //use state to create the dice array, initializing using the diceCreator function
     const [diceArr, setDiceArr] = React.useState(diceCreator());
     //use state to create a wonYet variable, thata boolean, that indicates whether or not all the numbers match
